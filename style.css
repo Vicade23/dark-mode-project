@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  background-color: rgb(223, 223, 252);
+}
+.body header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 5px;
+}
+.body header button {
+  padding: 5px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+.body main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body main .main {
+  width: 100%;
+  display: inline-block;
+  max-width: 350px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.body main .main:nth-child(1) {
+  border-bottom: 4px solid rgb(247, 149, 57);
+}
+.body main .main:nth-child(2) {
+  border-bottom: 4px solid rgb(3, 161, 3);
+}
+.body main .main:nth-child(3) {
+  border-bottom: 4px solid rgb(214, 4, 214);
+}
+.body main .main .h1 {
+  font-size: 60px;
+  padding-left: 15px;
+  padding-top: 15px;
+  letter-spacing: 0.5px;
+  padding-bottom: 5px;
+}
+.body main .main .h2 {
+  padding-left: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+@media (min-width: 930px) {
+  .body main {
+    flex-direction: row;
+  }
+}
+
+.h2, .h1, .main, .btn {
+  animation: animate1 1s ease forwards;
+}
+
+@keyframes animate1 {
+  from {
+    color: #fff;
+    background-color: #302f2f;
+  }
+  to {
+    color: #000;
+    background-color: #fff;
+  }
+}
+.h22, .h11, .mainn, .btnn {
+  animation: animate2 1s ease forwards;
+}
+
+@keyframes animate2 {
+  from {
+    color: #000;
+    background-color: #fff;
+  }
+  to {
+    color: #fff;
+    background-color: #302f2f;
+  }
+}
+.body {
+  background-color: rgb(223, 223, 252);
+  animation: animate3 1s ease forwards;
+}
+
+@keyframes animate3 {
+  from {
+    background-color: #000;
+  }
+  to {
+    background-color: rgb(223, 223, 252);
+  }
+}
+.bodyy {
+  background-color: rgb(223, 223, 252);
+  animation: animate4 1s ease forwards;
+}
+
+@keyframes animate4 {
+  from {
+    background-color: rgb(223, 223, 252);
+  }
+  to {
+    background-color: #000;
+  }
+}/*# sourceMappingURL=style.css.map */
